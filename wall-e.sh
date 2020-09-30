@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # This is my basic firewall setup script using ufw
 # orion
