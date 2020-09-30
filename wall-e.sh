@@ -23,7 +23,7 @@ elif which yum; then
 elif which apt-get; then
 	pm=$(which apt-get)
 else
-	warn "Can't find package manager! Won't be able to install new packages if I need them."
+	echo "Can't find package manager! Won't be able to install new packages if I need them."
 fi
 
 
